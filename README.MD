@@ -16,5 +16,8 @@ To use the handy functions:
 - To skew the x-axis along y-axis or z-axis by a ratio *n*: use `skewxy(n)`, `skewxz(n)`
 - To skew the y-axis along x-axis or z-axis by a ratio *n*: use `skewyx(n)`, `skewyz(n)`
 - To skew the z-axis along x-axis or y-axis by a ratio *n*: use `skewzx(n)`, `skewzy(n)`
+- To fill the positive XY plane: use `xy()`
+- To fill the positive XZ plane: use `xz()`
+- To fill the positive YZ plane: use `yz()`
 
 I've included some simple examples in `handyfunctions_examples.scad`. More elaborate examples can be found in my other things on Thingiverse, or just wait for the coming OpenSCADvent designs, which will be using this library.

@@ -69,3 +69,15 @@ module skewzx(n) {
 module skewzy(n) {
   multmatrix(m = [[1, 0, 0, 0], [0, 1, 0, 0], [0, n, 1, 0]]) children();
 }
+
+module xy() {
+  dz(1e3) cube(center=true, 2e3);
+}
+
+module xz() {
+  dy(1e3) cube(center=true, 2e3);
+}
+
+module yz() {
+  dx(1e3) cube(center=true, 2e3);
+}
