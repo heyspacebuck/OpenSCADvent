@@ -29,3 +29,9 @@ I've included some simple examples in `handyfunctions_examples.scad`. More elabo
 Here is a pleasant hillside surface generated from Perlin noise. It's a good demonstration of the extremely useful modules from day 1. In proper parametric form, you can change the angle of the hillside. This *was* going to be a bit more elaborate, but then I discovered that the `surface()` command *can't* take a matrix as input, it has to take an external file. This seems like an easy feature that OpenSCAD could implement! Anyway, I used the [sample Perlin noise bitmap from Wikipedia](https://en.wikipedia.org/wiki/Perlin_noise#/media/File:Perlin.png) to create a flat surface. Then I provided two slightly different approaches to angle it upward without too much distortion.
 
 Yes, it's a very simple SCADvent today, but it's one that future SCADvents will rely on, so I wanted to get it in early!
+
+## Day 3: Random bivalve
+
+Have you ever used the randomness function in OpenSCAD? If not, why not? Here's a nice little demo of `rands()` for you. The clam opens its shell to a random angle, and if you're lucky, there will be a chunky pearl inside!
+
+I took the original clam .stl, and hollowed and split it, using Meshlab and Blender. Theoretically it *is* possible to do all of it from within OpenSCAD. However, hollowing a model in OpenSCAD is...unwise. You must subtract the original model from a large cube, take the minkowski sum of that with a sphere, and then intersect *that* with the original model. And minkowski() on an organic shape like this would take FOREVER. So I did it in Meshlab and Blender.
