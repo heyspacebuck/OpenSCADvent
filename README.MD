@@ -35,3 +35,9 @@ Yes, it's a very simple SCADvent today, but it's one that future SCADvents will 
 Have you ever used the randomness function in OpenSCAD? If not, why not? Here's a nice little demo of `rands()` for you. The clam opens its shell to a random angle, and if you're lucky, there will be a chunky pearl inside!
 
 I took the original clam .stl, and hollowed and split it, using Meshlab and Blender. Theoretically it *is* possible to do all of it from within OpenSCAD. However, hollowing a model in OpenSCAD is...unwise. You must subtract the original model from a large cube, take the minkowski sum of that with a sphere, and then intersect *that* with the original model. And minkowski() on an organic shape like this would take FOREVER. So I did it in Meshlab and Blender.
+
+## Day 4: Make your own monument
+
+This is your chance to design the "Monument to Whatever Unicode Glyphs You Want"! It uses `handyfunctions.scad` from Day 1, `hillside.scad` from Day 2, and the `random()` function we talked about yesterday. Take a set of glyphs (of your choosing) and watch them emerge from the earth!
+
+Okay, a little backstory. When someone first told me about the Monument to the Armenian Alphabet, he took some poetic license. He described the stone glyphs as if they were partly sunk into the earth at weird angles, as if these massive letters had been sown across the land by some incredible, powerful force. I think that is an AMAZING and very reverent way to design a monument to a writing system. And, therefore, [the actual monument](https://www.atlasobscura.com/places/armenian-alphabet-monument) came as a little bit of a letdown! I can understand why the letters are elevated on plinths, but the haphazard-scattering idea has stuck with me for years and years. Finally, it's here.
