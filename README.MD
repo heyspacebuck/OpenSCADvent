@@ -51,3 +51,9 @@ This is your chance to design the "Monument to Whatever Unicode Glyphs You Want"
 Okay, a little backstory. When someone first told me about the Monument to the Armenian Alphabet, he took some poetic license. He described the stone glyphs as if they were partly sunk into the earth at weird angles, as if these massive letters had been sown across the land by some incredible, powerful force. I think that is an AMAZING and very reverent way to design a monument to a writing system. And, therefore, [the actual monument](https://www.atlasobscura.com/places/armenian-alphabet-monument) came as a little bit of a letdown! I can understand why the letters are elevated on plinths, but the haphazard-scattering idea has stuck with me for years and years. Finally, it's here.
 
 ![](img/monument2.png)
+
+## Day 5: 2D and 3D spiral modules
+
+![](img/spiralspiral.png)
+
+Here's a library for generating semicircular spirals! The first module, `spiral()`, generates a 2D polygon. The second module, `spiral_extrude()`, works like `linear_extrude()` or `rotate_extrude()`—specify any 2D shape and it will get extruded into a spiral. Lots of fun to be had!
