@@ -57,3 +57,13 @@ Okay, a little backstory. When someone first told me about the Monument to the A
 ![](img/spiralspiral.png)
 
 Here's a library for generating semicircular spirals! The first module, `spiral()`, generates a 2D polygon. The second module, `spiral_extrude()`, works like `linear_extrude()` or `rotate_extrude()`—specify any 2D shape and it will get extruded into a spiral. Lots of fun to be had!
+
+## Day 6: An upsetting ḥanukkiyah (menorah) for an upsetting year
+
+![](img/hanukkiyah.png)
+
+We've all been noticing it: time doesn't seem to work the way it used to. It still feels like March, somehow, and some weeks go by in the blink of an eye. It's confusing and upsetting. How can we commemorate an 8-night holiday when time feels so nonlinear?
+
+Please enjoy these randomly-generated ḥanukkiyot specifically made for this weird year 5781.
+
+Notice the additional file `torus.scad`! This is another very useful library file that you will need to generate your own upsetting ḥanukkiyot.
