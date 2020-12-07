@@ -5,8 +5,8 @@ include <handyfunctions.scad>;
 
 function random() = rands(0,1,1)[0];
 
-import("clam_bottom.stl");
-rx(45*random()) import("clam_top.stl");
+import("assets/clam_bottom.stl");
+rx(45*random()) import("assets/clam_top.stl");
 
 $fn=64;
 if (random() > 0.5) {
