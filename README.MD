@@ -72,4 +72,4 @@ Notice the additional file `torus.scad`! This is another very useful library fil
 
 ![](img/vilaka.png)
 
-I don't know much about Latvia but I *do* know that the [coat of arms of the town of Vilaka](https://en.wikipedia.org/wiki/Vi%C4%BCaka) is really really good. A smiley hedgehog and some flowers, what a great concept for a coat of arms. There's an okay-quality SVG version of the seal, so I extracted some of the paths from that and turned them into cookie cutters! Have some hedgehog and flower cookies!
+I don't know much about Latvia but I *do* know that the [coat of arms of the town of Viļaka](https://en.wikipedia.org/wiki/Vi%C4%BCaka) is really really good. A smiley hedgehog and some flowers, what a great concept for a coat of arms. There's an okay-quality SVG version of the seal, so I extracted some of the paths from that and turned them into cookie cutters! Have some hedgehog and flower cookies!
