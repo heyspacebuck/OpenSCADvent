@@ -81,3 +81,11 @@ I don't know much about Latvia but I *do* know that the [coat of arms of the tow
 It's a yule goat! What makes it specifically the Gävle Goat, you ask? Well......
 
 ![](img/ohno.gif)
+
+## Day 9: Meissner Tetrahedra (and vec3 math tools)
+
+![](img/meissners.png)
+
+There have been OpenSCAD Meissner tetrahedra before, but I think this is the first that does all the calculations within OpenSCAD (as opposed to dropping them into the file as magic numbers). The only info the file starts with is the dihedral angle of a regular tetrahedron. Then, give it one vertex of your desired solid, and OpenSCAD does the rest!
+
+This also introduces `vec3math.scad`. This lets me transform single points (vectors of length 3) similarly to how `handyfunctions.scad` lets me transform objects.
