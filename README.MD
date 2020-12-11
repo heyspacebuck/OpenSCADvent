@@ -95,3 +95,9 @@ This also introduces `vec3math.scad`. This lets me transform single points (vect
 ![](img/wrapcylinder.png)
 
 This took a million-and-one hours to render, and I'm not even that happy with the results.
+
+## Day 11: the famous Mathematica butt
+
+![](img/butt.png)
+
+As we all know, the greatest Stack Exchange page is this Mathematica one, [*How do I draw a pair of buttocks?*](https://mathematica.stackexchange.com/questions/66538/how-do-i-draw-a-pair-of-buttocks) I have lovingly ported the top answer to OpenSCAD. This one requires [scad-utils](https://github.com/openscad/scad-utils) and [skin.scad](https://github.com/openscad/list-comprehension-demos) to work, but trust me, it's worth it.
