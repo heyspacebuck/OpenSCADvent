@@ -101,3 +101,21 @@ This took a million-and-one hours to render, and I'm not even that happy with th
 ![](img/butt.png)
 
 As we all know, the greatest Stack Exchange page is this Mathematica one, [*How do I draw a pair of buttocks?*](https://mathematica.stackexchange.com/questions/66538/how-do-i-draw-a-pair-of-buttocks) I have lovingly ported the top answer to OpenSCAD. This one requires [scad-utils](https://github.com/openscad/scad-utils) and [skin.scad](https://github.com/openscad/list-comprehension-demos) to work, but trust me, it's worth it.
+
+## Day 12: Hanunó'o love poem
+
+![](img/hanunoo.png)
+
+> So, you will be going now,
+> Starting on a journey far!
+> Your eyes will enjoy the trip
+> Many things you will behold.
+> But I, who will stay behind,
+> Here within this four-walled room,
+> What thoughts could I entertain?
+> Just looking up at the roof,
+> Just looking down at the floor.
+
+Hanunó'o (a.k.a. Hanunoo, a.k.a. Hanunuo) is a language and a [writing system](https://en.wikipedia.org/wiki/Hanunuo_script) from the island of Mindoro, in the Philippines. As I understand it, the script is traditionally used to write love poems on bamboo. I got this poem from [Endangered Alphabets dot net](https://www.endangeredalphabets.net/alphabets/hanunuo/).
+
+This requires a Hanunó'o Unicode typeface. For some reason, OpenSCAD won't recognize the [Noto Sans Hanunoo font](https://www.google.com/get/noto/#sans-hano) in my system fonts folder, so I had to copy the .ttf file into my OpenSCADvent folder and include it explicitly.
