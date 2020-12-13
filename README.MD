@@ -119,3 +119,15 @@ As we all know, the greatest Stack Exchange page is this Mathematica one, [*How 
 Hanunó'o (a.k.a. Hanunoo, a.k.a. Hanunuo) is a language and a [writing system](https://en.wikipedia.org/wiki/Hanunuo_script) from the island of Mindoro, in the Philippines. As I understand it, the script is traditionally used to write love poems on bamboo. I got this poem from [Endangered Alphabets dot net](https://www.endangeredalphabets.net/alphabets/hanunuo/).
 
 This requires a Hanunó'o Unicode typeface. For some reason, OpenSCAD won't recognize the [Noto Sans Hanunoo font](https://www.google.com/get/noto/#sans-hano) in my system fonts folder, so I had to copy the .ttf file into my OpenSCADvent folder and include it explicitly.
+
+## Day 13: The flag of Nepal
+
+![](img/nepal.png)
+
+The flag of Nepal is notable for many reasons; among them, the geometric rules for its construction—with a compass and straightedge—are [enshrined in the national constitution](http://lawcommission.gov.np/en/archives/821). [Numberphile did a video construction](https://www.youtube.com/watch?v=f2Gne3UHKHs) that is worth checking out.
+
+In OpenSCAD, I've followed the instructions to the best of my ability. On lines 54 and 55, you can specify whatever points you want for A and B (assuming they're on the XY plane) and OpenSCAD will automatically compute the rest of the flag for you. There's some ambiguity about the rays of the moon, which I [dove into on Twitter last night](https://twitter.com/heyspacebuck/status/1337857007362183168), if you're interested.
+
+Like several of my previous models, handyfunctions.scad (from day 1) and vec3math.scad (from day 9) are required to build this model. I've attached them to this Thing.
+
+![](img/nepal2.png)
