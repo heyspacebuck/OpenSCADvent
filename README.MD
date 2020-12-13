@@ -128,6 +128,4 @@ The flag of Nepal is notable for many reasons; among them, the geometric rules f
 
 In OpenSCAD, I've followed the instructions to the best of my ability. On lines 54 and 55, you can specify whatever points you want for A and B (assuming they're on the XY plane) and OpenSCAD will automatically compute the rest of the flag for you. There's some ambiguity about the rays of the moon, which I [dove into on Twitter last night](https://twitter.com/heyspacebuck/status/1337857007362183168), if you're interested.
 
-Like several of my previous models, handyfunctions.scad (from day 1) and vec3math.scad (from day 9) are required to build this model. I've attached them to this Thing.
-
 ![](img/nepal2.png)
