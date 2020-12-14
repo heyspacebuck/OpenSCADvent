@@ -129,3 +129,9 @@ The flag of Nepal is notable for many reasons; among them, the geometric rules f
 In OpenSCAD, I've followed the instructions to the best of my ability. On lines 54 and 55, you can specify whatever points you want for A and B (assuming they're on the XY plane) and OpenSCAD will automatically compute the rest of the flag for you. There's some ambiguity about the rays of the moon, which I [dove into on Twitter last night](https://twitter.com/heyspacebuck/status/1337857007362183168), if you're interested.
 
 ![](img/nepal2.png)
+
+## Day 14: Meissner dice
+
+![](img/meissnerdice.png)
+
+I turned the Meissner tetrahedra from Day 9 into dice. Are they fair dice? I don't know!
