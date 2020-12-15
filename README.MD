@@ -135,3 +135,11 @@ In OpenSCAD, I've followed the instructions to the best of my ability. On lines 
 ![](img/meissnerdice.png)
 
 I turned the Meissner tetrahedra from Day 9 into dice. Are they fair dice? I don't know!
+
+## Day 15: Mongolian Soyombo
+
+![](img/soyombo2.png)
+
+I had fun making the flag of Nepal by compass-and-straightedge-via-openscad, so I went looking for other constructions on the Flags of the World website. The Soyombo is the symbol of Mongolia, and the constitution gives very specific directions for its size and assembly. However, there's some freedom in drawing the three flames at the top; I made some okay-ish parametric equations for the flames but I'd be eager to see someone else improve the flame equations. Anyway, now you have a 2d Soyombo symbol and can do with it what you will, for example, make a rotate_extrude Soyombo donut.
+
+![](img/soyombo.png)
